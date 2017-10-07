@@ -1,0 +1,35 @@
+.in_content{
+    width: 80%;
+    margin: auto;
+}
+
+.in_content h2{
+    width: 100%;
+    color: #6297ff;
+    border-bottom: 2px solid #6297ff;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-left:2%;
+    padding-right: 2%;
+
+}
+
+.in_inform{
+    margin-top: 50px;
+}
+
+.inform_txt>div{
+    float: right;
+    width: 60%;
+}
+
+.inform_txt{
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 60px;
+}
+
+.inform_txt img{
+    width: 35%;
+}
+

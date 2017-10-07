@@ -1,0 +1,56 @@
+.laarn_over{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    transition: width 0.5s;
+    height: 1000px;
+    margin-bottom: 30px;
+}
+
+.laarn_over>div{
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+
+.course{
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    opacity:0.6;
+    transition: opacity 1s,margin-top 0.5s;
+
+}
+
+.course:hover{
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.learn_bg{
+
+    position: relative;
+}
+
+.learn_course{
+    position: absolute;
+    left: 13%;
+    top: 0;
+}
+
+.course>h2{
+     position: absolute;
+     top: 45%;
+     left: 30%;
+ }
+
+.course>p{
+    position: absolute;
+    width: 80%;
+    top: 60%;
+    left: 10%;
+}
